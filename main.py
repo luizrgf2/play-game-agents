@@ -1,6 +1,11 @@
+import agents
+import agents.print_game_agent
+import keyboard
+
 def main():
-    print("Hello from play-game-agents!")
+    while True:
+        agents.print_game_agent.graph.invoke({})
+        print("Executado")
 
-
-if __name__ == "__main__":
-    main()
+keyboard.add_hotkey("alt+j", main)
+keyboard.wait("ctrl+b")

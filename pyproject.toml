@@ -5,9 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "keyboard>=0.13.5",
     "langchain>=0.3.25",
     "langchain-google-genai>=2.1.5",
     "langgraph>=0.4.8",
     "opencv-python>=4.11.0.86",
     "pyautogui>=0.9.54",
+    "python-dotenv>=1.1.0",
 ]
